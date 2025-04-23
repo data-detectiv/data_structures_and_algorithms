@@ -43,3 +43,49 @@ print(my_list2[0][0])
 #  Homework problem
 my_list3 = [[1, 2, 3], [["a", "b", "c"], 5, 6]]
 print(my_list3[1][0][1])
+
+# Adding Elements to a List
+"""
+1. Adding elements to a list
+2. append() method
+3. insert() method
+4. extend() method
+"""
+# append() method
+languages = ["C", "cpp", "Java"]
+languages.append("python")
+languages.append("ruby")
+languages.append("javascript")
+languages.append("rust")
+languages.append(["php", "html", "css"])
+
+
+# insert() method
+languages = ["C", "cpp", "Java"]
+languages.insert(0, "python")
+print(languages)
+
+# extend() method
+languages = ["C", "cpp", "Java"]
+more_languages = ["python", "javascript"]
+
+languages.extend(more_languages)
+print(languages)
+
+
+# input() method in python
+name = input("What is your name?")
+print(name)
+
+number = int(input("Enter a number: "))
+print(number * 2)
+
+# Input a list using loops
+n = int(input("Enter the number of elements: "))
+numbers = []
+for i in range(n):
+    x = int(input())
+    numbers.append(x)
+print(numbers)
+
+# Input a list using split() method in python
