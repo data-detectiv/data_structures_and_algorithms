@@ -136,6 +136,17 @@ more_languages = ["python", "javascript"]
 # print(copy_names)
 
 
-animals = ["lion", "tiger", "monkey", "elephant", "frog"]
-filtered_animals = [animal.title() for animal in animals]
-print(filtered_animals)
+# animals = ["lion", "tiger", "monkey", "elephant", "frog"]
+# filtered_animals = [animal.title() for animal in animals]
+# print(filtered_animals)
+
+# 1. a
+# 2. c
+# 3. b
+# 4. d
+# 5. a
+# 6. c
+# 7. d
+# 8. a
+# 9. d
+# 10. b
