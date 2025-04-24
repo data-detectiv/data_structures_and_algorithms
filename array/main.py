@@ -69,23 +69,73 @@ print(languages)
 languages = ["C", "cpp", "Java"]
 more_languages = ["python", "javascript"]
 
-languages.extend(more_languages)
-print(languages)
+# languages.extend(more_languages)
+# print(languages) 
 
 
-# input() method in python
-name = input("What is your name?")
-print(name)
+# # input() method in python
+# name = input("What is your name?")
+# print(name)
 
-number = int(input("Enter a number: "))
-print(number * 2)
+# number = int(input("Enter a number: "))
+# print(number * 2)
 
-# Input a list using loops
-n = int(input("Enter the number of elements: "))
-numbers = []
-for i in range(n):
-    x = int(input())
-    numbers.append(x)
-print(numbers)
+# # Input a list using loops
+# n = int(input("Enter the number of elements: "))
+# numbers = []
+# for i in range(n):
+#     x = int(input())
+#     numbers.append(x)
+# print(numbers)
 
 # Input a list using split() method in python
+# sentence = "I am John"
+# print(sentence.split())
+# numbers = input("Enter a list of numbers: ").split(",")
+# numbers_list = []
+# for num in numbers:
+#     numbers_list.append(int(num))
+# print(numbers_list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list[2] = "Foster"
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list[2:4] = ["Michael", "Foster", "Emma"]
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list.insert(2, "Michael")
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list.remove(1)
+
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list.pop(1)
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# del list[0]
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# del list
+# print(list)
+
+# list = ["Rob", "Jennifer", 1, 2, "Bob"]
+# list.clear()
+# print(list)
+
+# Introduction to list comprehension
+# names = ["John", "James", "Emmy", "Michael", "Jimmy"]
+# copy_names = [name for name in names]
+# print(copy_names)
+
+
+animals = ["lion", "tiger", "monkey", "elephant", "frog"]
+filtered_animals = [animal.title() for animal in animals]
+print(filtered_animals)
