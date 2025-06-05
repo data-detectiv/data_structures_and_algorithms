@@ -150,3 +150,7 @@ more_languages = ["python", "javascript"]
 # 8. a
 # 9. d
 # 10. b
+
+import array as arr
+
+print(len(arr.array('i',[1,2,3])))
