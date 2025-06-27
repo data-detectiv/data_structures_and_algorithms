@@ -122,6 +122,3 @@
 # print(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
 
 
-from scipy import stats
-p_value = stats.t.sf(1.64, df=29)
-print(p_value)
